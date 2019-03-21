@@ -2,6 +2,8 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ *
+ * https://stackoverflow.com/questions/11704047/simple-servlet-page-navigation-for-multiple-actions-not-working
  */
 package br.com.estacionamento.mvc.controller;
 
