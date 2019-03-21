@@ -5,11 +5,13 @@
  *
  * https://stackoverflow.com/questions/11704047/simple-servlet-page-navigation-for-multiple-actions-not-working
  */
+
 package br.com.estacionamento.mvc.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Senai
  */
+@WebServlet(value = "/index.jsp")
 public class index extends HttpServlet {
 
     
