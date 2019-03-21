@@ -12,6 +12,17 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <jsp include page = "layout.html" />
+        <div class="header">
+
+        </div>
+        <div class="content">
+            <h1>layout <% out.print(request.getSession().getAttribute("url"));%></h1>
+            
+           <%--<jsp:include page = "${url}" />--%>
+        </div>
+        <div class="footer">
+
+        </div>
+        
     </body>
 </html>
